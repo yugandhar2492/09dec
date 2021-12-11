@@ -2,7 +2,7 @@
 - hosts: mywebservers
   become: yes
   tasks:
-  - name: i want to install webserver on ubuntu 16 nodes
+  - name: i want to install webserver on ubuntu16 nodes
     apt: 
       name: "{{mywebpackageonubuntu}}"
       state: present
