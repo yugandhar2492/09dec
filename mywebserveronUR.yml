@@ -12,7 +12,6 @@
        name: "{{mywebpackageonubuntu}}" 
        state: started
     when: ansible_os_family =="Debian" 
-    
   - name: i want to install webserver on RedHat node
     yum:
       name: "{{mywebpackageonredhat}}" 
