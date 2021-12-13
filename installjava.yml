@@ -1,4 +1,3 @@
-installjava.yml
 ---
 - hosts: mywebservers
   become: yes
