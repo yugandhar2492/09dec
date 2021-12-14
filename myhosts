@@ -1,3 +1,7 @@
 [mywebservers]
 172.31.12.236
 172.31.8.95
+
+[mywebservers: vars]
+mywebpackageonubuntu=apache2
+mywebpackageonredhat=httpd
