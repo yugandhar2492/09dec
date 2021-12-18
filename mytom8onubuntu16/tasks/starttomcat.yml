@@ -1,0 +1,8 @@
+---
+- name: start tomact 
+  systemd:
+    state: started
+    daemon_reload: yes
+    name: tomact
+    enabled: yes
+    

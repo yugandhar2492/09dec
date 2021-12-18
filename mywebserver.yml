@@ -1,5 +1,5 @@
 ---
-- hosts: git
+- hosts: all 
   become: yes
   gather_facts: yes
   tasks:
