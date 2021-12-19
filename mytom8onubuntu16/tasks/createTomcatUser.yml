@@ -4,7 +4,7 @@
     name: tomcat
     state: present
 
-- name: create tomcat createTomcatUser.yml
+- name: create tomcat user
   user: 
     name: tomcat
     shell: /bin/false
