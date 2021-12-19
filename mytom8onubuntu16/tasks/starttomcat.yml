@@ -4,7 +4,7 @@
     daemon_reload: yes
   
   
-- name: starte
+- name: start
   systemd:    
     state: started
     name: tomact

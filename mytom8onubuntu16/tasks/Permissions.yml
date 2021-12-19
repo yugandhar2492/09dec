@@ -11,14 +11,12 @@
     path: /opt/tomcat/conf
     state: directory
     mode: g+r
-    recurse: yes
-
     
 - name:  give the tomcat group execute access to the conf directory
   file: 
     path: /opt/tomcat/conf
     state: directory
-    mode: g+r
+    mode: g+x
 
 - name: Make the tomcat user the owner of the webapps
   file:
