@@ -22,25 +22,25 @@
   file:
     path: /opt/tomcat/webapps/
     state: directory
-    owner: tomact
+    owner: tomcat
     recurse: yes
 
 - name: Make the tomcat user the owner of the work
   file:
     path: /opt/tomcat/work/
     state: directory
-    owner: tomact
+    owner: tomcat
     recurse: yes
 
 - name: Make the tomcat user the owner of the temp
   file:
     path: /opt/tomcat/temp/
     state: directory
-    owner: tomact
+    owner: tomcat
     recurse: yes
 - name: Make the tomcat user the owner of the logs
   file:
     path: /opt/tomcat/logs/
     state: directory
-    owner: tomact
+    owner: tomcat
     recurse: yes
