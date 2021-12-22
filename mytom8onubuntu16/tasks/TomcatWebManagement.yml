@@ -12,5 +12,5 @@
 
 - name: copy tomact host manger contex file into nodes
   template: 
-      src: templates/mytomcahosttmangercontax.j2
+      src: templates/mytomcathostmangercontax.j2
       dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml

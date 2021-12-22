@@ -3,8 +3,8 @@
   file:
     path: /opt/tomcat
     state: directory
-    group: tomcat 
     recurse: yes
+    owner: tomcat
 
 - name: give the tomcat group read access to the conf directory
   file: 
@@ -22,25 +22,25 @@
   file:
     path: /opt/tomcat/webapps/
     state: directory
-    owner: tomcat
     recurse: yes
+    owner: tomcat
 
 - name: Make the tomcat user the owner of the work
   file:
     path: /opt/tomcat/work/
     state: directory
-    owner: tomcat
     recurse: yes
+    owner: tomcat
 
 - name: Make the tomcat user the owner of the temp
   file:
     path: /opt/tomcat/temp/
     state: directory
-    owner: tomcat
     recurse: yes
+    owner: tomcat
 - name: Make the tomcat user the owner of the logs
   file:
     path: /opt/tomcat/logs/
     state: directory
-    owner: tomcat
     recurse: yes
+    owner: tomcat
